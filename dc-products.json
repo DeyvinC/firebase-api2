@@ -1,0 +1,29 @@
+[{
+    "brand": "Charlotte Tilbury",
+    "type": "Lipstick",
+    "color": "deep beige nude",
+    "price": 35.00,
+    "description": "A matte lipstick that features a long-lasting, buildable, and hydrating formula." 
+},
+{
+    "brand": "Bite Beauty",
+    "type": "Lipstick",
+    "color": "Sugar Buns - pink nude",
+    "price": 25.00,
+    "description": "A clean, vegan, hydrating soft-matte lipstick, powered by nourishing cocoa butter for lasting lightweight color." 
+},
+{
+    "brand": "Rare Beauty by Selena Gomez",
+    "type": "Liquid lipstick",
+    "color": "true rose",
+    "price": 39.00,
+    "description": "A weightless air-whipped lip cream that hugs lips with rich color and nourishing hydration that gives a soft velvety matte finish." 
+},
+{
+    "brand": "Yves Saint Laurent",
+    "type": "Lipstick",
+    "color": "21 Rouge Paradoxe - bright red",
+    "price": 30.00,
+    "description": "A comfortable and intensely pigmented semi-matte lipstick with an innovative square-bullet shape for precise application" 
+}
+]

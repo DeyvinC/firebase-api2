@@ -1,0 +1,54 @@
+[
+    {
+        "orderId": "",
+        "orderStatus": "Completed",
+        "customerId": "",
+        "totalAmount": 39.00,
+        "orderDate": "1/15/22",
+        "deliveryDate": "1/27/22",
+        "products": [{
+            "id": "",
+            "price": 39.00,
+            "quantity": 1
+        }]
+    },
+    {
+        "orderId": "",
+        "orderStatus": "Shipped",
+        "customerId": "",
+        "totalAmount": 60.00,
+        "orderDate": "1/27/22",
+        "deliveryDate": "02/03/22",
+        "products": [{
+            "id": "",
+            "price": 30.00,
+            "quantity": 2
+        }]
+    },
+    {
+        "orderId": "",
+        "orderStatus": "Backorder",
+        "customerId": "",
+        "totalAmount": 50.00,
+        "orderDate": "1/22/22",
+        "deliveryDate": "1/28/22",
+        "products": [{
+            "id": "",
+            "price": 25.00,
+            "quantity": 2
+        }]
+    },
+    {
+        "orderId": "",
+        "orderStatus": "Shipped",
+        "customerId": "",
+        "totalAmount": 78.00,
+        "orderDate": "1/27/22",
+        "deliveryDate": "02/05/22",
+        "products": [{
+            "id": "",
+            "price": 35.00,
+            "quantity": 2
+        }]
+    }
+]

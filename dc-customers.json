@@ -1,0 +1,58 @@
+[
+    {
+        "customerId": "",
+        "firstName": "Victoria",
+        "lastName": "Roas",
+        "address": [{
+                "streetAddress": "123 Sunshine Blvd",
+                "addressLine2": "",
+                "city": "Palmetto",
+                "state": "Florida",
+                "zipCode": "33052"
+        }],
+        "email": "Vroas@gmail.com",
+        "phoneNumber": "305-561-6161"
+    },
+    {
+        "customerId": "",
+        "firstName": "Manny",
+        "lastName": "Toribo",
+        "address": [{
+                "streetAddress": "123 Powerline rd",
+                "addressLine2": "apt. 202",
+                "city": "Boca Raton",
+                "state": "Florida",
+                "zipCode": "33433"
+        }],
+        "email": "Mtoribo@gmail.com",
+        "phoneNumber": "561-962-5555"
+    },
+    {
+        "customerId": "",
+        "firstName": "Lisa",
+        "lastName": "Smith",
+        "address": [{
+                "streetAddress": "3780 Lyons Ave",
+                "addressLine2": "apt. 3102",
+                "city": "Boca Raton",
+                "state": "Florida",
+                "zipCode": "33486"
+        }],
+        "email": "Lsmith@comcast.net",
+        "phoneNumber": "786-327-4444"
+    },
+    {
+        "customerId": "",
+        "firstName": "Alexis",
+        "lastName": "Rodriguez",
+        "address": [{
+                "streetAddress": "5734 Berasco street",
+                "addressLine2": "",
+                "city": "Plantation",
+                "state": "Florida",
+                "zipCode": "33317"
+        }],
+        "email": "Arod52@bellsouth.net",
+        "phoneNumber": "926-305-2155"
+    }
+]
