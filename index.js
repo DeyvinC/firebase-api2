@@ -25,8 +25,7 @@ function connectToFirestore() {
             credential: cert(credentials)
         });
     }
-    return getFirestore();
-}
+    return getFirestore();}
 
 
 app.get('/customer', (req, res) => {
@@ -129,15 +128,15 @@ app.get('/product/:id', (request, response) => {
 })
 
 app.patch('/order/:id', (request,response) => {
-
     const db = connectToFirestore()
     const { id} = request.params
     const { products: [{ price, quantity }] } = request.body
-console.log(request.body)
+    console.log(request.body)
     db.collection('dc-orders')
     .doc(id)
     .update({products: [{ price, quantity }]})
     .then(() => response.send("order updated"))
     .catch(console.error)
 })
+
 
