@@ -127,16 +127,28 @@ app.get('/product/:id', (request, response) => {
         .catch(err => console.error(err));
 })
 
-app.patch('/order/:id', (request,response) => {
+// app.patch('/order/:id', (request,response) => {
+//     const db = connectToFirestore()
+//     const { id } = request.params
+//     const { products: [{ price, quantity }] } = request.body
+//     console.log(request.body)
+//     db.collection('dc-orders')
+//     .doc(id)
+//     .update({products: [{ price, quantity }]})
+//     .then(() => response.send("order updated"))
+//     .catch(console.error)
+// })
+
+app.patch('/products:id', (request,response) => {
     const db = connectToFirestore()
-    const { id} = request.params
-    const { products: [{ price, quantity }] } = request.body
-    console.log(request.body)
-    db.collection('dc-orders')
-    .doc(id)
-    .update({products: [{ price, quantity }]})
-    .then(() => response.send("order updated"))
-    .catch(console.error)
+    const { id } = request.params
+    db.collection('dc-products').doc(id)
+    .update(request.body)
+    .then(() => {
+        response.status(202).send({
+            success: true,
+            message: 'customer updated'
+        })
+    })
+    .catch(err => response.status(500).send(err))
 })
-
-
