@@ -139,7 +139,7 @@ app.get('/product/:id', (request, response) => {
 //     .catch(console.error)
 // })
 
-app.patch('/products:id', (request,response) => {
+app.patch('/products/:id', (request,response) => {
     const db = connectToFirestore()
     const { id } = request.params
     db.collection('dc-products').doc(id)
@@ -152,3 +152,4 @@ app.patch('/products:id', (request,response) => {
     })
     .catch(err => response.status(500).send(err))
 })
+
